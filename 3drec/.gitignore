@@ -2,7 +2,6 @@ point_e*/
 *.png
 models/
 *.ckpg
-data/
 taming-transformers/
 exp*/
 heartbeat.json
