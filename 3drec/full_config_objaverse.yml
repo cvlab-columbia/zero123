@@ -1,0 +1,46 @@
+family: sd
+gddpm:
+  model: m_lsun_256
+  lsun_cat: bedroom
+  imgnet_cat: -1
+sd:
+  variant: objaverse
+  v2_highres: false
+  im_path: data/test/christmas-tree.jpg
+  scale: 100.0
+  precision: autocast
+lr: 0.05
+n_steps: 10000
+vox:
+  model_type: V_SD
+  bbox_len: 1.0
+  grid_size:
+  - 100
+  - 100
+  - 100
+  step_ratio: 0.5
+  density_shift: -1.0
+  ray_march_weight_thres: 0.0001
+  c: 3
+  blend_bg_texture: false
+  bg_texture_hw: 3
+pose:
+  rend_hw: 64
+  FoV: 60.0
+  R: 2.7
+  up: z
+emptiness_scale: 10
+emptiness_weight: 0
+emptiness_step: 0.5
+emptiness_multiplier: 20.0
+depth_smooth_weight: 10000.
+near_view_weight: 10000.
+depth_weight: 0
+var_red: true
+train_view: true
+view_weight: 10000
+scene: 'chair'
+index: 2
+train_depth: False
+train_normal: False
+prefix: 'exp'
