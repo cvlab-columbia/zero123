@@ -17,7 +17,7 @@ wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
 wget https://cv.cs.columbia.edu/zero123/assets/165000.ckpt
 ```
 
-and huggingface repo (still uploading):
+and huggingface repo:
 ```
 https://huggingface.co/cvlab/zero123-weights
 ```
