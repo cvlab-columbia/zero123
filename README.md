@@ -6,6 +6,7 @@
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
 
 ## Updates
+### we've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090(Ti)!
 ### weights also available at
 ```
 wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
@@ -43,7 +44,7 @@ Run our gradio demo for novel view synthesis:
 python gradio_new.py
 ```
 
-Note that this app uses around 29 GB of VRAM, so it may not be possible to run it on any GPU.
+Note that this app uses around 22 GB of VRAM, so it may not be possible to run it on any GPU.
 
 ### 3D Reconstruction
 
