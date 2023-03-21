@@ -19,7 +19,7 @@ wget https://cv.cs.columbia.edu/zero123/assets/165000.ckpt
 
 and huggingface repo (still uploading):
 ```
-https://huggingface.co/datasets/cvlab/zero123-weights 
+https://huggingface.co/cvlab/zero123-weights
 ```
 Note that we have released two model weights. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. 165000.ckpt is also available.
 
