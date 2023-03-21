@@ -21,7 +21,7 @@ and huggingface repo (still uploading):
 ```
 https://huggingface.co/datasets/cvlab/zero123-weights 
 ```
-Note that we have released two model weights. By default, we use 105000.ckpt whih is the checkpoint after finetuning 105000 iterations on objaverse. 165000.ckpt is also available.
+Note that we have released two model weights. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. 165000.ckpt is also available.
 
 ##  Usage
 ###  Novel View Synthesis
