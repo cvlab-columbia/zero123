@@ -114,7 +114,7 @@ class VoxRF(nn.Module):
         # We notice that DreamFusion also uses an exp scaling on densities.
         # The technique here is developed BEFORE DreamFusion came out,
         # and forms part of our upcoming technical report discussing invariant
-        # scaling for volume rendering. The reseach was presented to our
+        # scaling for volume rendering. The research was presented to our
         # funding agency (TRI) on Aug. 25th, and discussed with a few researcher friends
         # during the period.
         σ = σ * torch.exp(self.d_scale)

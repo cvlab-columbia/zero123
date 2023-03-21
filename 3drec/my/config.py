@@ -168,7 +168,7 @@ class ConfigMaker():
 
         if max(counts) > 1:
             raise ValueError("verbs repeated in cmd: {}".format(input_list))
-        # by now, there is 1 verb that has occured exactly 1 time
+        # by now, there is 1 verb that has occurred exactly 1 time
         verb = cls.VERBS[presence.index(1)]
         inx = input_list.index(verb)
         return verb, inx

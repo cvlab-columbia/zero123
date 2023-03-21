@@ -1,4 +1,4 @@
-# generates periodic hearbeats for remote expriment monitoring
+# generates periodic heartbeats for remote experiment monitoring
 from pathlib import Path
 import json
 from inspect import stack
