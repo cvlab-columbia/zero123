@@ -59,4 +59,11 @@ This repocitory is based on [Stable Diffusion](https://github.com/CompVis/stable
 We would like to thank Changxi Zheng for many helpful discussions. This research is based on work partially supported by the Toyota Research Institute, the DARPA MCS program under Federal Agreement No. N660011924032, and the NSF NRI Award #1925157.
 
 ##  Citation
-Placeholder
+@misc{liu2023zero1to3,
+      title={Zero-1-to-3: Zero-shot One Image to 3D Object}, 
+      author={Ruoshi Liu and Rundi Wu and Basile Van Hoorick and Pavel Tokmakov and Sergey Zakharov and Carl Vondrick},
+      year={2023},
+      eprint={2303.11328},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
