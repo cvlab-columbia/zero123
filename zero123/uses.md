@@ -57,4 +57,13 @@ Specifically, the checker compares the class probability of harmful concepts in 
 The concepts are passed into the model with the image and compared to a hand-engineered weight for each NSFW concept.
 
 ## Citation
-@article{placeholder}
+```
+@misc{liu2023zero1to3,
+      title={Zero-1-to-3: Zero-shot One Image to 3D Object}, 
+      author={Ruoshi Liu and Rundi Wu and Basile Van Hoorick and Pavel Tokmakov and Sergey Zakharov and Carl Vondrick},
+      year={2023},
+      eprint={2303.11328},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
