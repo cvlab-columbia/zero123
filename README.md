@@ -2,7 +2,7 @@
 ### [Project Page](https://zero123.cs.columbia.edu/)  | [Paper](https://arxiv.org/abs/2303.11328) | [Weights](https://drive.google.com/drive/folders/1geG1IO15nWffJXsmQ_6VLih7ryNivzVs?usp=sharing) | [Demo (precomputed)](https://huggingface.co/spaces/cvlab/zero123) | [Demo (live)](placeholder)
 
 [Zero-1-to-3: Zero-shot One Image to 3D Object](https://zero123.cs.columbia.edu/)  
- [Ruoshi Liu](https://people.eecs.berkeley.edu/~bmild/)<sup>1</sup>, [Rundi Wu](https://www.cs.columbia.edu/~rundi/)<sup>1</sup>,[Basile Van Hoorick](https://basile.be/about-me/)<sup>1</sup>,[Pavel Tokmakov](https://pvtokmakov.github.io/home/)<sup>2</sup>,[Sergey Zakharov](https://zakharos.github.io/)<sup>2</sup>,[Carl Vondrick](https://www.cs.columbia.edu/~vondrick/)<sup>1</sup> <br>
+ [Ruoshi Liu](https://ruoshiliu.github.io/)<sup>1</sup>, [Rundi Wu](https://www.cs.columbia.edu/~rundi/)<sup>1</sup>,[Basile Van Hoorick](https://basile.be/about-me/)<sup>1</sup>,[Pavel Tokmakov](https://pvtokmakov.github.io/home/)<sup>2</sup>,[Sergey Zakharov](https://zakharos.github.io/)<sup>2</sup>,[Carl Vondrick](https://www.cs.columbia.edu/~vondrick/)<sup>1</sup> <br>
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
  
 ##  Usage
