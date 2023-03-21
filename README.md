@@ -1,5 +1,5 @@
 # Zero-1-to-3: Zero-shot One Image to 3D Object
-### [Project Page](https://zero123.cs.columbia.edu/)  | [Paper](https://arxiv.org/abs/2003.08934) | [Weights](https://drive.google.com/drive/folders/1geG1IO15nWffJXsmQ_6VLih7ryNivzVs?usp=sharing) | [Demo (precomputed)](https://huggingface.co/spaces/cvlab/zero123) | [Demo (live)](placeholder)
+### [Project Page](https://zero123.cs.columbia.edu/)  | [Paper](https://arxiv.org/abs/2303.11328) | [Weights](https://drive.google.com/drive/folders/1geG1IO15nWffJXsmQ_6VLih7ryNivzVs?usp=sharing) | [Demo (precomputed)](https://huggingface.co/spaces/cvlab/zero123) | [Demo (live)](placeholder)
 
 [Zero-1-to-3: Zero-shot One Image to 3D Object](https://zero123.cs.columbia.edu/)  
  [Ruoshi Liu](https://people.eecs.berkeley.edu/~bmild/)<sup>1</sup>, [Rundi Wu](https://www.cs.columbia.edu/~rundi/)<sup>1</sup>,[Basile Van Hoorick](https://basile.be/about-me/)<sup>1</sup>,[Pavel Tokmakov](https://pvtokmakov.github.io/home/)<sup>2</sup>,[Sergey Zakharov](https://zakharos.github.io/)<sup>2</sup>,[Carl Vondrick](https://www.cs.columbia.edu/~vondrick/)<sup>1</sup> <br>
@@ -59,4 +59,13 @@ This repocitory is based on [Stable Diffusion](https://github.com/CompVis/stable
 We would like to thank Changxi Zheng for many helpful discussions. This research is based on work partially supported by the Toyota Research Institute, the DARPA MCS program under Federal Agreement No. N660011924032, and the NSF NRI Award #1925157.
 
 ##  Citation
-Placeholder
+```
+@misc{liu2023zero1to3,
+      title={Zero-1-to-3: Zero-shot One Image to 3D Object}, 
+      author={Ruoshi Liu and Rundi Wu and Basile Van Hoorick and Pavel Tokmakov and Sergey Zakharov and Carl Vondrick},
+      year={2023},
+      eprint={2303.11328},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
