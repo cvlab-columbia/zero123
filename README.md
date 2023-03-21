@@ -47,7 +47,7 @@ python gradio_new.py
 Note that this app uses around 22 GB of VRAM, so it may not be possible to run it on any GPU.
 
 ### 3D Reconstruction
-
+Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
 ```
 cd 3drec
 pip install -r requirements.txt
