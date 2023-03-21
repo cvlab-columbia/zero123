@@ -4,7 +4,19 @@
 [Zero-1-to-3: Zero-shot One Image to 3D Object](https://zero123.cs.columbia.edu/)  
  [Ruoshi Liu](https://ruoshiliu.github.io/)<sup>1</sup>, [Rundi Wu](https://www.cs.columbia.edu/~rundi/)<sup>1</sup>,[Basile Van Hoorick](https://basile.be/about-me/)<sup>1</sup>,[Pavel Tokmakov](https://pvtokmakov.github.io/home/)<sup>2</sup>,[Sergey Zakharov](https://zakharos.github.io/)<sup>2</sup>,[Carl Vondrick](https://www.cs.columbia.edu/~vondrick/)<sup>1</sup> <br>
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
- 
+
+## Updates
+### weights also available at
+```
+wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
+wget https://cv.cs.columbia.edu/zero123/assets/165000.ckpt
+```
+
+and huggingface repo (still uploading):
+```
+https://huggingface.co/datasets/cvlab/zero123-weights 
+```
+
 ##  Usage
 ###  Novel View Synthesis
 ```
