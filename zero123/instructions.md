@@ -8,4 +8,4 @@
 
 Have fun!
 
-A model card can be found here: uses.md
+A model card can be found here: https://github.com/cvlab-columbia/zero123/blob/main/zero123/uses.md

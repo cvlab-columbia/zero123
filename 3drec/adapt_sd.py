@@ -13,7 +13,7 @@ from adapt import ScoreAdapter
 from PIL import Image
 import requests
 import sys
-sys.path.append('../stable-diffusion')
+sys.path.append('../zero123')
 
 import warnings
 from transformers import logging
@@ -54,8 +54,8 @@ def load_model_from_config(config, ckpt, verbose=False):
     return model
 
 def load_objaverse_model(ckpt_root):
-    ckpt_fname = '../stable-diffusion/last.ckpt'
-    cfg_fname = '../stable-diffusion/configs/sd-objaverse-finetune-c_concat-256.yaml'
+    ckpt_fname = '../zero123/105000.ckpt'
+    cfg_fname = '../zero123/configs/sd-objaverse-finetune-c_concat-256.yaml'
     H, W = 256, 256
 
     config = OmegaConf.load(str(cfg_fname))
@@ -73,7 +73,7 @@ def _sqrt(x):
 class StableDiffusion(ScoreAdapter):
     def __init__(self, variant, v2_highres, prompt, scale, precision, im_path=None):
         if variant == "objaverse":
-            add_import_path("stable-diffusion")
+            add_import_path("zero123")
             self.model, H, W = load_objaverse_model(self.checkpoint_root())
         else:
             raise ValueError(f"{variant}")
