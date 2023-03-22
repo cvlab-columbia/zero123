@@ -50,7 +50,7 @@ Note that we haven't extensively tuned the hyperparameters for 3D recosntruction
 cd 3drec
 pip install -r requirements.txt
 python run_zero123.py \
-    --scene 'pikachu' \
+    --scene pikachu \
     --index 0 \
     --n_steps 10000 \
     --lr 0.05 \
@@ -59,9 +59,9 @@ python run_zero123.py \
     --depth_smooth_weight 10000. \
     --near_view_weight 10000. \
     --train_view True \
-    --prefix 'experiments/exp_wild' \
+    --prefix "experiments/exp_wild" \
     --vox.blend_bg_texture False \
-    --nerf_path 'data/nerf_wild'
+    --nerf_path "data/nerf_wild"
 ```
 We tested the installation processes on a system with Ubuntu 20.04 with an NVIDIA GPU with Ampere architecture.
 
