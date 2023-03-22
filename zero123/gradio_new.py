@@ -284,7 +284,6 @@ def preprocess_image(models, input_im, preprocess):
     start_time = time.time()
 
     if preprocess:
-        input_im.thumbnail([1536, 1536], Image.Resampling.LANCZOS)
         input_im = load_and_preprocess(models['carvekit'], input_im)
         input_im = (input_im / 255.0).astype(np.float32)
         # (H, W, 3) array in [0, 1].
@@ -320,6 +319,7 @@ def main_run(models, device, cam_vis, return_what,
     :param raw_im (PIL Image).
     '''
     
+    raw_im.thumbnail([1536, 1536], Image.Resampling.LANCZOS)
     safety_checker_input = models['clip_fe'](raw_im, return_tensors='pt').to(device)
     (image, has_nsfw_concept) = models['nsfw'](
         images=np.ones((1, 3)), clip_input=safety_checker_input.pixel_values)
