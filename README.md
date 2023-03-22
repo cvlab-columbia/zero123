@@ -10,18 +10,8 @@
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
 
 ## Updates
+### $\text{\color{red}{Live demo released}}$ 🤗: https://huggingface.co/spaces/cvlab/zero123-live  Shout out to Huggingface for funding this demo!!
 ### we've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090(Ti)!
-### weights also available at
-```
-wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
-wget https://cv.cs.columbia.edu/zero123/assets/165000.ckpt
-```
-
-and huggingface repo:
-```
-https://huggingface.co/cvlab/zero123-weights
-```
-Note that we have released two model weights. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. 165000.ckpt is also available.
 
 ##  Usage
 ###  Novel View Synthesis
@@ -36,11 +26,15 @@ git clone https://github.com/openai/CLIP.git
 pip install -e CLIP/
 ```
 
-Download checkpoint under `zero123`:
+Download checkpoint under `zero123` through one of the following sources:
 
 ```
 https://drive.google.com/drive/folders/1geG1IO15nWffJXsmQ_6VLih7ryNivzVs?usp=sharing
+https://huggingface.co/cvlab/zero123-weights
+wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
+wget https://cv.cs.columbia.edu/zero123/assets/165000.ckpt
 ```
+Note that we have released two model weights. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. 165000.ckpt is also available.
 
 Run our gradio demo for novel view synthesis:
 
