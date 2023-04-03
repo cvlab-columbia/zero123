@@ -62,6 +62,8 @@ python main.py \
     --finetune_from sd-image-conditioned-v2.ckpt
 ```
 
+Note that this training script is set for an 8-GPU system, each with 80GB of VRAM. As discussed in the paper, empirically the large batch size is very importnat for "stably" training stable diffusion. If you have smaller GPUs, consider gradient accumulation to obtain a similar effective batch size.
+
 ### 3D Reconstruction
 Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
 ```
