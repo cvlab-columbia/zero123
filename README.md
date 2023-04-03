@@ -44,6 +44,24 @@ python gradio_new.py
 
 Note that this app uses around 22 GB of VRAM, so it may not be possible to run it on any GPU.
 
+### Training Script (preliminary)
+
+Download image-conditioned stable diffusion checkpoint released by [Lambda Labs](https://huggingface.co/spaces/lambdalabs/stable-diffusion-image-variations):  
+`wget https://cv.cs.columbia.edu/zero123/assets/sd-image-conditioned-v2.ckpt`
+
+Run training command:  
+```
+python main.py \
+    -t \
+    --base configs/stable-diffusion/sd-objaverse-finetune-c_concat-256.yaml \
+    --gpus 0,1,2,3,4,5,6,7 \
+    --scale_lr False \
+    --num_nodes 1 \
+    --seed 42 \
+    --check_val_every_n_epoch 10 \
+    --finetune_from sd-image-conditioned-v2.ckpt
+```
+
 ### 3D Reconstruction
 Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
 ```
