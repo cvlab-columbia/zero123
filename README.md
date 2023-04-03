@@ -11,7 +11,7 @@
 
 ## Updates
 ### $\text{\color{red}{Live demo released}}$ 🤗: https://huggingface.co/spaces/cvlab/zero123-live. Shout out to Huggingface for funding this demo!!
-### we've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3(4)090(Ti)!
+### we've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090/4090(Ti)!
 
 ##  Usage
 ###  Novel View Synthesis
