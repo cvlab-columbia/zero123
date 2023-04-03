@@ -1,5 +1,5 @@
 # Zero-1-to-3: Zero-shot One Image to 3D Object
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/cvlab/zero123)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/cvlab/zero123-live)
 ### [Project Page](https://zero123.cs.columbia.edu/)  | [Paper](https://arxiv.org/abs/2303.11328) | [Weights](https://drive.google.com/drive/folders/1geG1IO15nWffJXsmQ_6VLih7ryNivzVs?usp=sharing) | [Demo (precomputed)](https://huggingface.co/spaces/cvlab/zero123) | [Demo (live)](https://huggingface.co/spaces/cvlab/zero123-live)
 
 <p align="center">
