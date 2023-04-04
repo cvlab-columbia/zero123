@@ -32,10 +32,9 @@ Download checkpoint under `zero123` through one of the following sources:
 ```
 https://drive.google.com/drive/folders/1geG1IO15nWffJXsmQ_6VLih7ryNivzVs?usp=sharing
 https://huggingface.co/cvlab/zero123-weights
-wget https://cv.cs.columbia.edu/zero123/assets/105000.ckpt
-wget https://cv.cs.columbia.edu/zero123/assets/165000.ckpt
+wget https://cv.cs.columbia.edu/zero123/assets/$iteration.ckpt
 ```
-Note that we have released two model weights. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. 165000.ckpt is also available.
+Note that we have released 4 model weights: 105000.ckpt, 165000.ckpt, 230000.ckpt, 300000.ckpt. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. Naturally, checkpoints trained longer tend to overfit to training data and suffer in zero-shot generalization, though we didn't empirically verify this. 300000.ckpt is trained for around 6000 A100 hours.
 
 Run our gradio demo for novel view synthesis:
 
