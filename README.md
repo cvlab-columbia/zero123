@@ -11,8 +11,9 @@
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
 
 ## Updates
+### We have released [training script](https://github.com/cvlab-columbia/zero123#training-script-preliminary) and [objaverse rendering](https://github.com/cvlab-columbia/zero123#objaverse-rendering-preliminary)
 ### $\text{\color{red}{Live demo released}}$ 🤗: https://huggingface.co/spaces/cvlab/zero123-live. Shout out to Huggingface for funding this demo!!
-### we've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090/4090(Ti)!
+### We've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090/4090(Ti)!
 
 ##  Usage
 ###  Novel View Synthesis
@@ -32,7 +33,7 @@ Download checkpoint under `zero123` through one of the following sources:
 ```
 https://drive.google.com/drive/folders/1geG1IO15nWffJXsmQ_6VLih7ryNivzVs?usp=sharing
 https://huggingface.co/cvlab/zero123-weights
-wget https://cv.cs.columbia.edu/zero123/assets/$iteration.ckpt
+wget https://cv.cs.columbia.edu/zero123/assets/$iteration.ckpt    # iteration = [105000, 165000, 230000, 300000]
 ```
 Note that we have released 4 model weights: 105000.ckpt, 165000.ckpt, 230000.ckpt, 300000.ckpt. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. Naturally, checkpoints trained longer tend to overfit to training data and suffer in zero-shot generalization, though we didn't empirically verify this. 300000.ckpt is trained for around 6000 A100 hours.
 
@@ -63,6 +64,13 @@ python main.py \
 ```
 
 Note that this training script is set for an 8-GPU system, each with 80GB of VRAM. As discussed in the paper, empirically the large batch size is very important for "stably" training stable diffusion. If you have smaller GPUs, consider using smaller batch size and gradient accumulation to obtain a similar effective batch size. Please check [this thread](https://github.com/cvlab-columbia/zero123/issues/22#issuecomment-1493492145) for the train/val split we used in the paper.
+
+### Objaverse Rendering (preliminary)
+
+Download our objaverse renderings with:
+```
+wget https://cv.cs.columbia.edu/zero123/assets/views_release.tar.gz
+```
 
 ### 3D Reconstruction
 Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
