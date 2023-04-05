@@ -11,8 +11,7 @@
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
 
 ## Updates
-### If you haven't started downloading the dataset, please hold it until further updates as the link will be closed shortly due to unexpected high traffic. We will update with new methods to download shortly. Sorry for the inconvenience.  
-### We have released [training script](https://github.com/cvlab-columbia/zero123#training-script-preliminary) and [objaverse rendering](https://github.com/cvlab-columbia/zero123#objaverse-rendering-preliminary)!  
+### We have released [training script](https://github.com/cvlab-columbia/zero123#training-script-preliminary)
 ### $\text{\color{red}{Live demo released}}$ 🤗: https://huggingface.co/spaces/cvlab/zero123-live. Shout out to Huggingface for funding this demo!!
 ### We've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090/4090(Ti)!
 
@@ -65,13 +64,6 @@ python main.py \
 ```
 
 Note that this training script is set for an 8-GPU system, each with 80GB of VRAM. As discussed in the paper, empirically the large batch size is very important for "stably" training stable diffusion. If you have smaller GPUs, consider using smaller batch size and gradient accumulation to obtain a similar effective batch size. Please check [this thread](https://github.com/cvlab-columbia/zero123/issues/22#issuecomment-1493492145) for the train/val split we used in the paper.
-
-### Objaverse Rendering (preliminary)
-
-Download our objaverse renderings (1.7T disk space unzipped) with:
-```
-wget https://cv.cs.columbia.edu/zero123/assets/views_release.tar.gz
-```
 
 ### 3D Reconstruction
 Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
