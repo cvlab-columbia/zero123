@@ -11,6 +11,7 @@
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
 
 ## Updates
+### If you haven't started downloading the dataset, please hold it until further updates as the link will be closed shortly due to unexpected high traffic. We will update with new methods to download shortly. Sorry for the inconvenience.  
 ### We have released [training script](https://github.com/cvlab-columbia/zero123#training-script-preliminary) and [objaverse rendering](https://github.com/cvlab-columbia/zero123#objaverse-rendering-preliminary)!  
 ### $\text{\color{red}{Live demo released}}$ 🤗: https://huggingface.co/spaces/cvlab/zero123-live. Shout out to Huggingface for funding this demo!!
 ### We've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090/4090(Ti)!
