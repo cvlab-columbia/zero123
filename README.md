@@ -69,7 +69,7 @@ Note that this training script is set for an 8-GPU system, each with 80GB of VRA
 
 Download our objaverse renderings with:
 ```
-wget https://cv.cs.columbia.edu/zero123/assets/views_release.tar.gz
+wget https://tri-ml-public.s3.amazonaws.com/datasets/views_release.tar.gz
 ```
 
 ### 3D Reconstruction
