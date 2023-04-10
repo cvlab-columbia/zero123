@@ -65,7 +65,7 @@ python main.py \
 
 Note that this training script is set for an 8-GPU system, each with 80GB of VRAM. As discussed in the paper, empirically the large batch size is very important for "stably" training stable diffusion. If you have smaller GPUs, consider using smaller batch size and gradient accumulation to obtain a similar effective batch size. Please check [this thread](https://github.com/cvlab-columbia/zero123/issues/22#issuecomment-1493492145) for the train/val split we used in the paper.
 
-### Objaverse Rendering (preliminary)
+### Dataset (Objaverse Renderings)
 
 Download our objaverse renderings with:
 ```
