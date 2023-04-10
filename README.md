@@ -71,6 +71,7 @@ Download our objaverse renderings with:
 ```
 wget https://tri-ml-public.s3.amazonaws.com/datasets/views_release.tar.gz
 ```
+Disclaimer: note that the renderings are generated with Objaverse which is subject to [ODC-By 1.0 license](https://objaverse.allenai.org/docs/license). Our renderings, as a derivative of the dataset, will be subject to the same license.
 
 ### 3D Reconstruction
 Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
