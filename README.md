@@ -92,7 +92,14 @@ python run_zero123.py \
     --vox.blend_bg_texture False \
     --nerf_path "data/nerf_wild"
 ```
-You can see results under: `3drec/experiments/exp_wild/$EXP_NAME`  
+You can see results under: `3drec/experiments/exp_wild/$EXP_NAME`.  
+
+To export a mesh from the trained Voxel NeRF with marching cube, use the [`export_mesh`](https://github.com/cvlab-columbia/zero123/blob/3736c13fc832c3fc8bf015de833e9da68a397ed9/3drec/voxnerf/vox.py#L71) function. For example, add a line:
+
+``` vox.export_mesh($PATH_TO_EXPORT)```
+
+under the [`evaluate`](https://github.com/cvlab-columbia/zero123/blob/3736c13fc832c3fc8bf015de833e9da68a397ed9/3drec/run_zero123.py#L304) function.  
+
 We tested the installation processes on a system with Ubuntu 20.04 with an NVIDIA GPU with Ampere architecture.
 
 ##  Acknowledgement
