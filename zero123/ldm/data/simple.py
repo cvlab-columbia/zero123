@@ -213,7 +213,7 @@ class ObjaverseData(Dataset):
         default_trans=torch.zeros(3),
         postprocess=None,
         return_paths=False,
-        total_view=4,
+        total_view=12,
         validation=False
         ) -> None:
         """Create a dataset from a folder of images.
@@ -287,10 +287,7 @@ class ObjaverseData(Dataset):
     def __getitem__(self, index):
 
         data = {}
-        if self.paths[index][-2:] == '_1': # dirty fix for rendering dataset twice
-            total_view = 8
-        else:
-            total_view = 4
+        total_view = 12
         index_target, index_cond = random.sample(range(total_view), 2) # without replacement
         filename = os.path.join(self.root_dir, self.paths[index])
 
