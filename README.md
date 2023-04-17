@@ -92,6 +92,7 @@ python run_zero123.py \
     --vox.blend_bg_texture False \
     --nerf_path "data/nerf_wild"
 ```
+You can see results under: `3drec/experiments/exp_wild/$EXP_NAME`  
 We tested the installation processes on a system with Ubuntu 20.04 with an NVIDIA GPU with Ampere architecture.
 
 ##  Acknowledgement
