@@ -11,6 +11,7 @@
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
 
 ## Updates
+- [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) has recently implemented 3D reconstruction with zero123 using Instant-NGP and SDS loss from DreamFusion. Shout out to [@ashawkey](https://github.com/ashawkey)!
 - We have released [training script](https://github.com/cvlab-columbia/zero123#training-script-preliminary) and [objaverse renderings](https://github.com/cvlab-columbia/zero123#dataset-objaverse-renderings).  
 - Live demo released 🤗: https://huggingface.co/spaces/cvlab/zero123-live. Shout out to Huggingface for funding this demo!!  
 - We've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090/4090(Ti)!  
@@ -73,7 +74,10 @@ wget https://tri-ml-public.s3.amazonaws.com/datasets/views_release.tar.gz
 ```
 Disclaimer: note that the renderings are generated with Objaverse. The renderings as a whole are released under the ODC-By 1.0 license. The licenses for the renderings of individual objects are released under the same license creative commons that they are in Objaverse.
 
-### 3D Reconstruction
+### 3D Reconstruction (SDS)
+Check out [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion)
+
+### 3D Reconstruction (SJC)
 Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
 ```
 cd 3drec
