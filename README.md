@@ -96,15 +96,19 @@ python run_zero123.py \
     --vox.blend_bg_texture False \
     --nerf_path "data/nerf_wild"
 ```
-You can see results under: `3drec/experiments/exp_wild/$EXP_NAME`.  
+- You can see results under: `3drec/experiments/exp_wild/$EXP_NAME`.  
 
-To export a mesh from the trained Voxel NeRF with marching cube, use the [`export_mesh`](https://github.com/cvlab-columbia/zero123/blob/3736c13fc832c3fc8bf015de833e9da68a397ed9/3drec/voxnerf/vox.py#L71) function. For example, add a line:
 
-``` vox.export_mesh($PATH_TO_EXPORT)```
+- To export a mesh from the trained Voxel NeRF with marching cube, use the [`export_mesh`](https://github.com/cvlab-columbia/zero123/blob/3736c13fc832c3fc8bf015de833e9da68a397ed9/3drec/voxnerf/vox.py#L71) function. For example, add a line:
 
-under the [`evaluate`](https://github.com/cvlab-columbia/zero123/blob/3736c13fc832c3fc8bf015de833e9da68a397ed9/3drec/run_zero123.py#L304) function.  
+    ``` vox.export_mesh($PATH_TO_EXPORT)```
 
-We tested the installation processes on a system with Ubuntu 20.04 with an NVIDIA GPU with Ampere architecture.
+    under the [`evaluate`](https://github.com/cvlab-columbia/zero123/blob/3736c13fc832c3fc8bf015de833e9da68a397ed9/3drec/run_zero123.py#L304) function.  
+
+
+- The dataset is formatted in the same way as NeRF for the convenience of dataloading. In reality, the recommended input in addition to the input image is an estimate of the elevation angle of the image (e.g. if the image is taken from top, the angle is 0, front is 90, bottom is 180). This is hard-coded now to the extrinsics matrix in `transforms_train.json`
+
+- We tested the installation processes on a system with Ubuntu 20.04 with an NVIDIA GPU with Ampere architecture.
 
 ##  Acknowledgement
 This repository is based on [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [Objaverse](https://objaverse.allenai.org/), and [SJC](https://github.com/pals-ttic/sjc/). We would like to thank the authors of these work for publicly releasing their code. We would like to thank the authors of [NeRDi](https://arxiv.org/abs/2212.03267) and [SJC](https://github.com/pals-ttic/sjc/) for their helpful feedback.
