@@ -85,7 +85,6 @@ def sample_model(input_im, model, sampler, precision, h, w, ddim_steps, n_sample
             c = model.cc_projection(c)
             cond = {}
             cond['c_crossattn'] = [c]
-            c_concat = model.encode_first_stage((input_im.to(c.device))).mode().detach()
             cond['c_concat'] = [model.encode_first_stage((input_im.to(c.device))).mode().detach()
                                 .repeat(n_samples, 1, 1, 1)]
             if scale != 1.0:
