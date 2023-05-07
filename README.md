@@ -6,12 +6,12 @@
  [Ruoshi Liu](https://ruoshiliu.github.io/)<sup>1</sup>, [Rundi Wu](https://www.cs.columbia.edu/~rundi/)<sup>1</sup>, [Basile Van Hoorick](https://basile.be/about-me/)<sup>1</sup>, [Pavel Tokmakov](https://pvtokmakov.github.io/home/)<sup>2</sup>, [Sergey Zakharov](https://zakharos.github.io/)<sup>2</sup>, [Carl Vondrick](https://www.cs.columbia.edu/~vondrick/)<sup>1</sup> <br>
  <sup>1</sup>Columbia University, <sup>2</sup>Toyota Research Institute
 
-Novel View Synthesis:
+### [Novel View Synthesis](https://github.com/cvlab-columbia/zero123#novel-view-synthesis):
 <p align="center">
   <img width="90%" src="teaser.png">
 </p>
 
-3D Reconstruction:
+### [3D Reconstruction](https://github.com/cvlab-columbia/zero123/edit/main/README.md#3d-reconstruction-sjc):
 <p align="center">
   <img width="95%" src="3drec.gif">
 </p>
