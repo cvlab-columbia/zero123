@@ -12,7 +12,10 @@ Novel View Synthesis:
 </p>
 
 3D Reconstruction:
-![3drec](https://user-images.githubusercontent.com/25470644/236698924-b8f10c17-f263-4301-8aac-a559226f2c8f.gif)
+<p align="center">
+  <img width="95%" src="3drec.gif">
+</p>
+
 
 ## Updates
 - [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) has recently implemented 3D reconstruction with zero123 using Instant-NGP and SDS loss from DreamFusion. Shout out to [@ashawkey](https://github.com/ashawkey)!
