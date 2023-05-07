@@ -58,6 +58,8 @@ Note that this app uses around 22 GB of VRAM, so it may not be possible to run i
 Download image-conditioned stable diffusion checkpoint released by [Lambda Labs](https://huggingface.co/spaces/lambdalabs/stable-diffusion-image-variations):  
 `wget https://cv.cs.columbia.edu/zero123/assets/sd-image-conditioned-v2.ckpt`
 
+Download and unzip `valid_paths.json.zip` and move the `valid_paths.json` file under the `view_release` folder.
+
 Run training command:  
 ```
 python main.py \
