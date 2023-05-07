@@ -13,7 +13,7 @@
 
 ### [3D Reconstruction](https://github.com/cvlab-columbia/zero123/edit/main/README.md#3d-reconstruction-sjc):
 <p align="center">
-  <img width="95%" src="3drec.gif">
+  <img width="90%" src="texture.gif">
 </p>
 
 
