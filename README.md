@@ -119,7 +119,7 @@ python run_zero123.py \
 - We tested the installation processes on a system with Ubuntu 20.04 with an NVIDIA GPU with Ampere architecture.
 
 ### Discussion on Janus Problem
-The design of our method fundamentally alleviate the [Janus problem](https://twitter.com/poolio/status/1578045212236034048?s=20) as shown in the 3D reconstruction results above and many results in the [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) repo. Our method models explicit camera transformation which is then supervised on synthetic 3D dataset. By modeling camera perspective in such an explicit way, the ambiguity and bias of viewpoint existing in text-to-image model is significantly alleviated.
+The design of our method fundamentally alleviates the [Janus problem](https://twitter.com/poolio/status/1578045212236034048?s=20) as shown in the 3D reconstruction results above and many results in the [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) repo. Our method models explicit camera transformation which is then supervised on synthetic 3D dataset. By modeling camera perspective in such an explicit way, the ambiguity and bias of viewpoint existing in text-to-image model is significantly alleviated.
 
 ##  Acknowledgement
 This repository is based on [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [Objaverse](https://objaverse.allenai.org/), and [SJC](https://github.com/pals-ttic/sjc/). We would like to thank the authors of these work for publicly releasing their code. We would like to thank the authors of [NeRDi](https://arxiv.org/abs/2212.03267) and [SJC](https://github.com/pals-ttic/sjc/) for their helpful feedback.
