@@ -121,6 +121,8 @@ python run_zero123.py \
 ### Discussion on Janus Problem
 The design of our method fundamentally alleviates the [Janus problem](https://twitter.com/poolio/status/1578045212236034048?s=20) as shown in the 3D reconstruction results above and many results in the [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) repo. By modeling camera perspective in an explicit way and training on a large-scale high-quality synthetic dataset where we can obtain ground truth for everything, the ambiguity and bias of viewpoint existing in text-to-image model is significantly alleviated.
 
+This is also related to the prompting tricks used in DreamFusion where prompts like "a back view of" is inserted at the beginning of the text prompt. Zero-1-to-3 models such change of viewpoint explicitly and finetune on Objaverse to ensure both consistency after viewpoint change and accuracy of queried viewpoint.
+
 ##  Acknowledgement
 This repository is based on [Stable Diffusion](https://github.com/CompVis/stable-diffusion), [Objaverse](https://objaverse.allenai.org/), and [SJC](https://github.com/pals-ttic/sjc/). We would like to thank the authors of these work for publicly releasing their code. We would like to thank the authors of [NeRDi](https://arxiv.org/abs/2212.03267) and [SJC](https://github.com/pals-ttic/sjc/) for their helpful feedback.
 
