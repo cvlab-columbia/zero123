@@ -18,7 +18,9 @@
 
 
 ## Updates
-- [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) has recently implemented 3D reconstruction with zero123 using Instant-NGP and SDS loss from DreamFusion. Shout out to [@ashawkey](https://github.com/ashawkey)!
+
+- [Threestudio](https://github.com/threestudio-project/threestudio#zero-1-to-3-) has recently implemented single-view 3D reconstruction with zero123!  
+- [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) has recently implemented 3D reconstruction with zero123 using Instant-NGP and SDS loss from DreamFusion!
 - We have released [training script](https://github.com/cvlab-columbia/zero123#training-script-preliminary) and [objaverse renderings](https://github.com/cvlab-columbia/zero123#dataset-objaverse-renderings).  
 - Live demo released 🤗: https://huggingface.co/spaces/cvlab/zero123-live. Shout out to Huggingface for funding this demo!!  
 - We've optimized our code base with some simple tricks and the current demo runs at around 22GB VRAM so it's runnable on a RTX 3090/4090(Ti)!  
