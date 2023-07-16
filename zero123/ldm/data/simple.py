@@ -287,7 +287,7 @@ class ObjaverseData(Dataset):
     def __getitem__(self, index):
 
         data = {}
-        total_view = 12
+        total_view = self.total_view
         index_target, index_cond = random.sample(range(total_view), 2) # without replacement
         filename = os.path.join(self.root_dir, self.paths[index])
 
