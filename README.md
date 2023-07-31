@@ -20,6 +20,7 @@
 
 ## Updates
 
+- Checkout the [amazing image-to-3D results](https://github.com/threestudio-project/threestudio#zero-1-to-3-) at Threestudio developed by Stability AI!
 - [Threestudio](https://github.com/threestudio-project/threestudio#zero-1-to-3-) has recently implemented single-view 3D reconstruction with zero123!  
 - [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) has recently implemented 3D reconstruction with zero123 using Instant-NGP and SDS loss from DreamFusion!
 - We have released [training script](https://github.com/cvlab-columbia/zero123#training-script-preliminary) and [objaverse renderings](https://github.com/cvlab-columbia/zero123#dataset-objaverse-renderings).  
