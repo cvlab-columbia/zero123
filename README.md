@@ -1,4 +1,5 @@
 # Zero-1-to-3: Zero-shot One Image to 3D Object
+### ICCV 2023
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/cvlab/zero123-live)
 ### [Project Page](https://zero123.cs.columbia.edu/)  | [Paper](https://arxiv.org/abs/2303.11328) | [Weights](https://huggingface.co/cvlab/zero123-weights/tree/main) | [Live Demo 🤗](https://huggingface.co/spaces/cvlab/zero123-live)
 
