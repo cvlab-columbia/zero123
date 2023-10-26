@@ -91,7 +91,7 @@ Disclaimer: note that the renderings are generated with Objaverse. The rendering
 Check out [Stable-Dreamfusion](https://github.com/ashawkey/stable-dreamfusion)
 
 ### 3D Reconstruction (SJC)
-Note that we haven't extensively tuned the hyperparameters for 3D recosntruction. Feel free to explore and play around!
+Note that we haven't extensively tuned the hyperparameters for 3D reconstruction. Feel free to explore and play around!
 ```
 cd 3drec
 pip install -r requirements.txt
@@ -119,7 +119,7 @@ python run_zero123.py \
     under the [`evaluate`](https://github.com/cvlab-columbia/zero123/blob/3736c13fc832c3fc8bf015de833e9da68a397ed9/3drec/run_zero123.py#L304) function.  
 
 
-- The dataset is formatted in the same way as NeRF for the convenience of dataloading. In reality, the recommended input in addition to the input image is an estimate of the elevation angle of the image (e.g. if the image is taken from top, the angle is 0, front is 90, bottom is 180). This is hard-coded now to the extrinsics matrix in `transforms_train.json`
+- The dataset is formatted in the same way as NeRF for the convenience of data loading. In reality, the recommended input in addition to the input image is an estimate of the elevation angle of the image (e.g. if the image is taken from top, the angle is 0, front is 90, bottom is 180). This is hard-coded now to the extrinsics matrix in `transforms_train.json`
 
 - We tested the installation processes on a system with Ubuntu 20.04 with an NVIDIA GPU with Ampere architecture.
 
