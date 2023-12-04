@@ -42,10 +42,15 @@ pip install -e CLIP/
 ```
 
 Download checkpoint under `zero123` through one of the following sources:
-
 ```
 https://huggingface.co/cvlab/zero123-weights/tree/main
-wget https://cv.cs.columbia.edu/zero123/assets/$iteration.ckpt    # iteration = [105000, 165000, 230000, 300000]
+```
+
+Use aria2c`` download models from huggingface
+
+```
+apt install aria2
+aria2c -x 10 --disable-ipv6 --input-file models.txt --dir zero123/ --continue
 ```
 Note that we have released 4 model weights: 105000.ckpt, 165000.ckpt, 230000.ckpt, 300000.ckpt. By default, we use 105000.ckpt which is the checkpoint after finetuning 105000 iterations on objaverse. Naturally, checkpoints trained longer tend to overfit to training data and suffer in zero-shot generalization, though we didn't empirically verify this. 300000.ckpt is trained for around 6000 A100 hours.
 
