@@ -1,0 +1,4 @@
+https://huggingface.co/cvlab/zero123-weights/resolve/main/105000.ckpt?download=true
+  out=105000.ckpt
+https://huggingface.co/cvlab/zero123-weights/resolve/main/165000.ckpt?download=true
+  out=165000.ckpt
