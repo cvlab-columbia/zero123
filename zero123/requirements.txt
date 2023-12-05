@@ -17,7 +17,7 @@ kornia==0.6
 webdataset==0.2.5
 torchmetrics==0.6.0
 fire==0.4.0
-gradio==3.21.0
+gradio==3.40.1
 diffusers==0.12.1
 datasets[vision]==2.4.0
 carvekit-colab==4.1.0
