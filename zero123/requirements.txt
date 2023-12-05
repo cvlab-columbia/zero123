@@ -2,7 +2,7 @@
 torch==1.12.1
 torchvision==0.13.1
 albumentations==0.4.3
-opencv-python==4.5.5.64
+opencv-python==4.7.0.72
 pudb==2019.2
 imageio==2.9.0
 imageio-ffmpeg==0.4.2
