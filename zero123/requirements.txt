@@ -2,7 +2,7 @@
 torch==1.12.1
 torchvision==0.13.1
 albumentations==0.4.3
-opencv-python==4.5.5.64
+opencv-python==4.7.0.72
 pudb==2019.2
 imageio==2.9.0
 imageio-ffmpeg==0.4.2
@@ -17,7 +17,7 @@ kornia==0.6
 webdataset==0.2.5
 torchmetrics==0.6.0
 fire==0.4.0
-gradio==3.21.0
+gradio==4.44.1
 diffusers==0.12.1
 datasets[vision]==2.4.0
 carvekit-colab==4.1.0

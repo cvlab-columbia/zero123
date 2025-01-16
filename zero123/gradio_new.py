@@ -565,7 +565,6 @@ def run_demo(
                     label='Relationship between input (green) and output (blue) camera poses')
 
                 gen_output = gr.Gallery(label='Generated images from specified new viewpoint')
-                gen_output.style(grid=2)
 
                 preproc_output = gr.Image(type='pil', image_mode='RGB',
                                           label='Preprocessed input image', visible=_SHOW_INTERMEDIATE)
@@ -654,7 +653,7 @@ def run_demo(
                                     0.0, 180.0, 0.0),
                        inputs=preset_inputs, outputs=preset_outputs)
 
-    demo.launch(enable_queue=True, share=True)
+    demo.launch(share=True)
 
 
 if __name__ == '__main__':
